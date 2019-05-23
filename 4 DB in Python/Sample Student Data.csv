@@ -1,0 +1,75 @@
+Section,Last Name,First Name,Username,Email,AttPts,PrtPts,LowQuiz,ECRAILS,QuizAvg,QuizPts,Proj1Pts,IndPapPts,ECMyITLabPts,FinalPts,Proj2Pts,TotalPts,Grade
+A,Broecker,Daniel,dlbroecker,dlbroecker@suffolk.edu, 4.76 , 2.00 ,56%,0%,67%,16.64894636,13.5625,8,0,14.16666667,21, 80.14 ,B-
+A,Chasse,Sarah,scchasse,scchasse@suffolk.edu, 4.95 , 10.00 ,53%,0%,67%,16.68869732,9.975,8,0,14.16666667,21, 84.78 ,B
+A,Cote-Mclaughlin,Christopher,cgmclaughlin2,cgmclaughlin2@suffolk.edu, 3.65 , 10.00 ,48%,0%,66%,16.54645594,9.5,10,0,11.66666667,21, 82.37 ,B-
+A,Diouf,Korka,kdiouf2,kdiouf2@suffolk.edu, 4.28 , 10.00 ,60%,130%,85%,21.3309387,9.975,0,2,12.5,21, 81.08 ,B-
+A,Fougere,Kristen,kfougere,kfougere@suffolk.edu, 4.13 , 10.00 ,48%,100%,84%,21.0052682,10.45,7.5,2,15,22, 92.09 ,A
+A,Goldman,Neal,njgoldman,njgoldman@suffolk.edu, 3.65 , 3.00 ,0%,0%,40%,10.10751916,8.55,9,0,9.166666667,20, 63.48 ,D
+A,Hannon,Cassandra,crhannon,crhannon@suffolk.edu, 3.94 , 10.00 ,0%,0%,53%,13.23635057,7.59,8.5,0,15,22, 80.27 ,B-
+A,Jaafar,Yousef,yajaafar,yajaafar@suffolk.edu, 4.81 , 10.00 ,47%,90%,87%,21.66139847,9.975,9.5,0,13.33333333,21, 90.28 ,A-
+A,Kabbaj,Dounia,dkabbaj,dkabbaj@suffolk.edu, 4.95 , 10.00 ,36%,100%,70%,17.55268199,10.29,0,0,12.5,20, 75.29 ,C+
+A,Minihan,Jennifer Rose,jminihan,jminihan@suffolk.edu, 4.81 , 10.00 ,78%,0%,81%,20.2059387,9.79,7.5,0,10.83333333,21, 84.14 ,B
+A,Rios,Leonardo,lrios,lrios@suffolk.edu, 3.99 , 4.00 ,0%,0%,22%,5.495689655,9.345,9.5,0,8.333333333,20, 60.66 ,D
+A,Ruiz Sada,Jimena,jruizsada,jruizsada@suffolk.edu, 3.65 , 8.00 ,17%,0%,32%,8.048132184,8.3125,10,0,14.16666667,14, 66.18 ,D
+A,Say,Danny,dsay,dsay@suffolk.edu, 3.37 , 10.00 ,0%,0%,52%,12.94899425,10.45,10,0,12.5,17, 76.26 ,C+
+A,Sylvia,Ryan,rsylvia2,rsylvia2@suffolk.edu, 4.62 , 10.00 ,0%,90%,84%,20.99952107,10.45,7.5,2,14.16666667,22, 91.73 ,A
+A,Yelina,Anastasiya,ayelina,ayelina@suffolk.edu, 5.00 , 10.00 ,68%,100%,83%,20.65972222,9.8,9,2,15,22, 93.46 ,A
+C,Aime,Goldie,gaime,gaime@suffolk.edu, 4.52 , 10.00 ,0%,0%,45%,11.34722222,10.3425,9.5,0,14.21052632,21, 80.92 ,B-
+C,Caldwell,Joshua,jcaldwell,jcaldwell@suffolk.edu, 3.85 , 10.00 ,55%,100%,81%,20.3723659,10.5,7,0,15,20, 86.72 ,B+
+C,Comeau,Anne,aecomeau,aecomeau@suffolk.edu, 4.95 , 10.00 ,59%,0%,70%,17.40421456,9.85,9.5,0,13.42105263,21, 86.13 ,B
+C,Descamps,Michelle,mdescamps,mdescamps@suffolk.edu, 3.94 , 10.00 ,53%,0%,73%,18.17792146,9.9225,8,0,15,22, 87.04 ,B+
+C,Diatta,Pierre,pediatta,pediatta@suffolk.edu, 4.23 , 4.00 ,59%,0%,73%,18.14439655,10.3425,8.5,0,14.21052632,21, 80.43 ,B-
+C,DiMauro,Tyler,tjdimauro,tjdimauro@suffolk.edu, 4.76 , 10.00 ,31%,100%,76%,19.00957854,10,8.5,0,15,20.66666667, 87.94 ,B+
+C,Do,Anh (Ling),ahdo,ahdo@suffolk.edu, 4.86 , 10.00 ,60%,100%,88%,22.03280651,8.866666667,8,0,15,18.5, 87.26 ,B+
+C,Egan,Madeline,mfegan,mfegan@suffolk.edu, 4.42 , 10.00 ,71%,90%,87%,21.69300766,9.5,9.8,0,15,19.33333333, 89.75 ,A-
+C,Jallow,Cherno,cajallow,cajallow@suffolk.edu, 4.76 , 10.00 ,53%,130%,92%,23.08453065,9.333333333,9.5,2,15,19, 92.68 ,A
+C,Jiang,Lusi,ljiang2,ljiang2@suffolk.edu, 5.00 , 10.00 ,59%,130%,93%,23.33836207,9.5,8,0,15,20.66666667, 91.51 ,A
+C,Kelly,Jeffrey,jrkelly,jrkelly@suffolk.edu, 4.62 , 10.00 ,74%,0%,81%,20.3407567,10.5,10,0,15,21, 91.46 ,A
+C,Li,Ai,ali5,ali5@suffolk.edu, 5.00 , 10.00 ,56%,90%,80%,20.10344828,8.505,7.5,2,15,20.66666667, 88.78 ,A-
+C,Lussier,Joseph,jplussier,jplussier@suffolk.edu, 5.00 , 10.00 ,90%,0%,94%,23.40517241,10,7.5,0,15,20, 90.91 ,A-
+C,Mejia,Miguel,mamejia,mamejia@suffolk.edu, 4.42 , 10.00 ,74%,0%,78%,19.50335249,9.45,8.5,0,15,19, 85.88 ,B
+C,Nee,Michael,mjnee2,mjnee2@suffolk.edu, 4.81 , 10.00 ,43%,90%,71%,17.75359195,8.55,8.5,0,15,18, 82.61 ,B-
+C,Ngongalah,Simbe,sngongalah,sngongalah@suffolk.edu, 4.57 , 10.00 ,64%,90%,87%,21.86206897,9.868333333,8,2,15,20, 91.30 ,A
+C,Noumon,Mahuena (Florence),fnoumon,fnoumon@suffolk.edu, 5.00 , 10.00 ,47%,100%,79%,19.77514368,7.79625,8,0,15,19.33333333, 84.90 ,B
+C,Palm,Casey,cjpalm,cjpalm@suffolk.edu, 5.00 , 10.00 ,62%,0%,85%,21.25383142,10.5,7.5,1.063,15,21, 91.32 ,A
+C,Perez-Lucena,Francisco,fjperez-lucena,fjperez-lucena@suffolk.edu, 5.00 , 10.00 ,83%,100%,100%,24.96551724,10,9,0,15,21, 94.97 ,A
+C,Post,Holly,hepost,hepost@suffolk.edu, 4.23 , 8.25 ,66%,0%,76%,19.10320881,9.2625,10,0,15,20, 85.85 ,B
+C,Rebell,Matthew,mrrebell,mrrebell@suffolk.edu, 4.81 , 10.00 ,72%,90%,84%,20.96982759,9.816666667,8,0,15,20, 88.59 ,A-
+C,Ribeiro,Anthony,aqribeiro,aqribeiro@suffolk.edu, 4.04 , 6.00 ,0%,100%,65%,16.12931034,8.595,9.5,0,15,16.5, 75.76 ,C+
+C,Russo,Elizabeth,errusso2,errusso2@suffolk.edu, 4.81 , 10.00 ,50%,0%,75%,18.82758621,10.45,9.8,2,15,21.33333333, 92.22 ,A
+C,Saad,Samantha,ssaad,ssaad@suffolk.edu, 4.42 , 10.00 ,60%,0%,73%,18.20713602,9.975,8,0,15,21, 86.61 ,B+
+C,Slinning,Marius,mhslinning,mhslinning@suffolk.edu, 5.00 , 10.00 ,80%,0%,86%,21.43917625,9.9,8,0,15,22, 91.34 ,A
+C,Tomolillo,Christy,cmtomolillo,cmtomolillo@suffolk.edu, 4.23 , 7.00 ,0%,100%,67%,16.67528736,10.45,10,0,15,20, 83.36 ,B
+C,Tran,Tien,ttran9,ttran9@suffolk.edu, 4.95 , 10.00 ,45%,90%,77%,19.33189655,10.0275,9,2,15,20, 90.31 ,A-
+C,Vo,Jessica,jtvo2,jtvo2@suffolk.edu, 5.00 , 10.00 ,88%,100%,94%,23.50933908,9.5,9,2,15,22, 96.01 ,A
+C,Zaid,Melanie,mzaid,mzaid@suffolk.edu, 4.04 , 10.00 ,59%,0%,74%,18.57471264,9.68625,10,0,15,22, 89.30 ,A-
+C,Zambrano,Jose,jezambrano,jezambrano@suffolk.edu, 4.04 , 10.00 ,64%,0%,82%,20.50694444,9.9,9.5,0,15,22, 90.95 ,A-
+E,Bates,Emma,esbates,esbates@suffolk.edu, 4.81 , 10.00 ,59%,0%,79%,19.65229885,9.975,10,0,13.75,21.33333333, 89.52 ,A-
+E,Butalia,Gautam,gbutalia,gbutalia@suffolk.edu, 4.04 , 10.00 ,44%,0%,80%,19.91570881,6.72,9.8,0,10,18, 78.47 ,B-
+E,Dang,Thu (Sonny),thdang2,thdang2@suffolk.edu, 4.81 , 10.00 ,55%,100%,91%,22.81178161,7,9.8,0,14.16666667,20, 88.59 ,A-
+E,Elmoussaoui,Sophia,saelmoussaoui,saelmoussaoui@suffolk.edu, 5.00 , 10.00 ,56%,90%,74%,18.50215517,9.975,9,0,11.66666667,21, 85.14 ,B
+E,Encarnacion,Lourdes,lmencarnacion,lmencarnacion@suffolk.edu, 4.81 , 10.00 ,29%,0%,47%,11.82758621,10.45,8.5,0,11.66666667,22, 79.25 ,B-
+E,Eugenie,David,dmeugenie,dmeugenie@suffolk.edu, 4.04 , 7.00 ,22%,0%,46%,11.46216475,8.55,9.5,0,10.83333333,18, 69.38 ,D+
+E,Fimbres Santillan,Paula,plfimbressantillan,plfimbressantillan@suffolk.edu, 4.76 , 10.00 ,57%,90%,71%,17.85823755,7.5,10,0,10.83333333,20, 80.95 ,B-
+E,Japikse,Daniel,ddjapikse,ddjapikse@suffolk.edu, 3.85 , 8.25 ,67%,0%,75%,18.82902299,6.3,10,0,12.5,14, 73.73 ,C
+E,John,Ralik,rjohn,rjohn@suffolk.edu, 4.52 , 8.25 ,62%,100%,70%,17.48084291,9.975,8,0,13.33333333,20, 81.56 ,B-
+E,Johnson,Nicole,nmjohnson,nmjohnson@suffolk.edu, 4.23 , 10.00 ,38%,90%,60%,15.06226054,9.5,9.8,0,14.16666667,20, 82.76 ,B-
+E,Kulibayeva,Dinara,dkulibayeva,dkulibayeva@suffolk.edu, 5.00 , 10.00 ,68%,100%,84%,20.92911877,7.5,7.5,0,13.33333333,20, 84.26 ,B
+E,McGrath,Shaun,srmcgrath,srmcgrath@suffolk.edu, 4.76 , 10.00 ,47%,0%,71%,17.63649425,10.5,9,0,11.66666667,21, 84.56 ,B
+E,Meister,Jake,jameister,jameister@suffolk.edu, 4.62 , 7.25 ,44%,90%,53%,13.31417625,7.98,9,0,11.66666667,18, 71.83 ,C-
+E,Monaco,Jennifer,jlmonaco,jlmonaco@suffolk.edu, 4.81 , 10.00 ,47%,0%,54%,13.45785441,9,8,0,10.83333333,20.66666667, 76.77 ,B-
+E,Morgenstern,Leon,lamorgenstern,lamorgenstern@suffolk.edu, 4.42 , 5.00 ,36%,100%,63%,15.8644636,9.713333333,9.5,0,13.33333333,20.66666667, 78.50 ,B-
+E,Proposki,Jessica,jrproposki,jrproposki@suffolk.edu, 4.62 , 10.00 ,62%,0%,69%,17.13362069,9.9,7.5,0,13.33333333,22, 84.48 ,B
+E,Ramsinghani,Akshay,asramsinghani,asramsinghani@suffolk.edu, 4.23 , 10.00 ,58%,0%,66%,16.55890805,9.713333333,8,0,13.33333333,20.66666667, 82.50 ,B-
+E,Sanchez,David,dasanchez2,dasanchez2@suffolk.edu, 5.00 , 10.00 ,60%,100%,76%,19.07327586,10,8,0,11.25,20, 83.32 ,B
+E,Schatzman,Megan,mkschatzman,mkschatzman@suffolk.edu, 5.00 , 10.00 ,64%,110%,73%,18.16331418,9.5,9,0,14.16666667,20, 85.83 ,B
+E,Sidenko,Marina,mosidenko,mosidenko@suffolk.edu, 4.81 , 10.00 ,52%,0%,62%,15.49329502,10.45,9.5,0,13.33333333,22, 85.58 ,B
+E,Silva,Fernando,ffsilva,ffsilva@suffolk.edu, 4.81 , 10.00 ,50%,0%,86%,21.53975096,10.5,9.5,0,13.75,20.66666667, 90.76 ,A-
+E,Sylvestre,Malaina,mjsylvestre,mjsylvestre@suffolk.edu, 4.62 , 10.00 ,52%,0%,79%,19.76772031,9.9,9,0,10,20, 83.28 ,B
+E,Tabares-Mendoza,Andres,atabares-mendoza,atabares-mendoza@suffolk.edu, 5.00 , 10.00 ,53%,110%,57%,14.35584291,9.4,8,0,11.66666667,20, 78.42 ,B-
+E,Tsoukaatos,Elias,etsoukaatos,etsoukaatos@suffolk.edu, 4.28 , 10.00 ,45%,0%,52%,13.06273946,10,8.5,0,14.16666667,20, 80.01 ,B-
+E,Vazquez,Gonzalo,gavazquez,gavazquez@suffolk.edu, 5.00 , 10.00 ,52%,100%,67%,16.78639847,10,8.5,0,11.66666667,20, 81.95 ,B-
+E,Velez,Carlos,cavelez,cavelez@suffolk.edu, 4.38 , 10.00 ,0%,120%,76%,19.08524904,9.4,9,0,10,20, 81.86 ,B-
+E,Walsh,Jillian,jwalsh2,jwalsh2@suffolk.edu, 4.71 , 10.00 ,66%,0%,76%,18.95354406,7.5,7,0,14.16666667,20, 82.33 ,B-
+E,Webby,Ryan,rtwebby,rtwebby@suffolk.edu, 4.62 , 10.00 ,29%,0%,52%,13.02681992,9.9,0,0,11.66666667,21, 70.21 ,C-
+E,Zeitlan,Joshua,jmzeitlan,jmzeitlan@suffolk.edu, 4.81 , 5.00 ,64%,0%,65%,16.30747126,8.4,0,0,14.16666667,18, 66.68 ,D+
