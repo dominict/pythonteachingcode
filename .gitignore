@@ -102,3 +102,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+4 DB in Python/.DS_Store
