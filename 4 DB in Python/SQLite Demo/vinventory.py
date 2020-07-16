@@ -96,7 +96,8 @@ def update_data():
         #update the change made date log
         sql = "UPDATE vaccines set changemade = ? where id =  ?"
         changemade = str(now.year) +"/"+str(now.month) +"/"+str(now.day)
-        conn.execute(sql, (changemade,update_ID)) 
+        conn.execute(sql, (changemade,update_ID))
+        conn.commit() 
         
     except Error as e:
         print(e)
