@@ -3,7 +3,7 @@
 <div class="home">
     <h1>My homepage</h1>
     <p>This is a test website. {{myName}}</p>
-    <p><form action='{{ url_for('greet') }}' method='post'>
+    <p><form action="{{ url_for('greet') }}" method='post'>
         Please type your name: <input type='text' name='myName'><br>
         <input type='submit' value='Submit'>
         </form></p>

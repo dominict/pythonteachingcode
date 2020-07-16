@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: rgb(50, 77, 13);
+  color: rgb(57, 106, 235);
 }
 
 /*
@@ -20,7 +20,7 @@ header {
 header h1.logo {
   margin: 0;
   font-size: 1.7em;
-  color: #fff;
+  color: #f5394b;
   text-transform: uppercase;
   float: left;
 }
