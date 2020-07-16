@@ -2,8 +2,8 @@ import pymysql as my
 import getpass
 
 #root password is something you set when you install mysql on your system
-#the default may be blank; I use python123 for testing
-dbconn = my.connect (host='127.0.0.1',port=3306,user='root', password='python123',  db='students')
+#the default may be blank; I use python123 for testing (old server was root/python123)
+dbconn = my.connect (host='127.0.0.1',port=33067,user='root', password='',  db='students')
  
 #print(dbconn)
 cursor = dbconn.cursor()
@@ -36,10 +36,10 @@ for GradeID, Grade,Comment,UserID in cursor:
 dbconn.close()
 
 #print(users)
-print("STUDENTS")
-print(students)
-print("FACULTY")
-print(faculty)
+#print("STUDENTS")
+#print(students)
+print("FACULTY user account for testing:")
+print(faculty[1][1],faculty[1][2])
 #print(users[1][1],users[1][2])
 
 #print(grades)
@@ -62,16 +62,14 @@ import statistics as s
 
 #now define functions
 def enterGrades():
-    nameToEnter = input('Student name: ')
-    gradeToEnter = input('Grade: ')
+    listStudents()
+    thisStudentID = input('Enter the student ID: ')
+    gradeToEnter = input('Grade to enter (eg. 98.3): ')
+    studentIndex = int(thisStudentID)-1
+    print('Adding grade for '+students[studentIndex][1])
+    #students[studentIndex].append(float(gradeToEnter)) #float will have a .0
+    print(students[studentIndex][1]+' now has these grades:')
 
-    if nameToEnter in students[1]:
-        print('Adding grade for'+nameToEnter)
-        students[nameToEnter].append(float(gradeToEnter)) #float will have a .0
-        print(str(nameToEnter)+' now has these grades:')
-        print(students[nameToEnter])
-    else:
-        print('Student not found. Please check your spelling or go back and add if new.')
 
 def removeStudent():
     nameToRemove = input('Who do you want to remove? ')
@@ -81,6 +79,13 @@ def removeStudent():
         print(students)
     else:
         print('Student not found.')
+
+def listStudents():
+    for student in students:
+        thisStudent = ""
+        for item in student:
+            thisStudent += str(item) + " "
+        print(thisStudent)
 
 def averageStudents():
     for student in students:
@@ -134,5 +139,3 @@ for sublist in faculty:
                 print('Invalid password.')
         else:
             print('User not found.')
-    else:
-        print('Invalid user. Check your spelling.')
