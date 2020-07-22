@@ -1,7 +1,7 @@
 # Python Teaching Code
-This repo contains a variety of starter project code and demo code for showing different capabilities and how to use them in Python.
+This repository ("repo") contains a variety of starter project code and demo code for showing different capabilities and how to use them in Python.
 
-Begin by forking this repository to your own Github account. Next, you can clone it to your machine and run the examples and customize the code.
+Begin by forking this repository to your own Github account. Next, you can clone it to your machine and run the examples and customize the code. If you do not fork it first, you will not be able to save changes, as you do not have permission to change this original template in my account.
 
 The projects included here include working code and some experimental code. Some also require additional libraries and capabilities on your computer in order for you to use them. Those are noted below.
 
