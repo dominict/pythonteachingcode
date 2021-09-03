@@ -1,4 +1,5 @@
 '''
+This code goes out to the Web and gets a web page and parses it into local data.
 To use this code, you will first need to install the three packages being imported below using pip.
 '''
 from bs4 import BeautifulSoup
