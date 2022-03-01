@@ -2,7 +2,7 @@ from tkinter import *
 from math import sqrt as sqr
 
 
-class Application(Frame):
+class Calculator(Frame):
     """
     An example of a calculator app developed using the 
     Tkinter GUI.
@@ -14,7 +14,7 @@ class Application(Frame):
         :param master: root.Tk()
         """
         Frame.__init__(self, master)
-        self.entry = Entry(master, width=24, font=("Arial",25))
+        self.entry = Entry(master, width=36, font=("Arial",25))
         self.entry.grid(row=0, column=0, columnspan=6, sticky="w")
         self.entry.focus_set()
         self.entry.configure(state="disabled", disabledbackground="white", disabledforeground="black")
@@ -216,5 +216,5 @@ class Application(Frame):
 root = Tk()
 root.geometry()
 root.title("Exciting GUI Calculator")
-app = Application(root)
+app = Calculator(root)
 root.mainloop()
