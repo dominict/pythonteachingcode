@@ -11,3 +11,6 @@ for tempLine in  city_tempsArr:
     city_temps = tempLine.split(',')
     print(headingsArr[0] + " of " + city_temps[0] + " "
           + headingsArr[2] + " is " + city_temps[2] + " Celsius")
+
+
+#test
