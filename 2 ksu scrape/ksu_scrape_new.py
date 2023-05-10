@@ -1,5 +1,6 @@
 '''
-TO use this code, you will first need to install the three packages being imported below using pip or a manual install method.
+To use this code, you will first need to install the three packages being imported below using pip or a manual install method.
+This code was updated in August 2021 to use the new KSU news feed design.
 '''
 from bs4 import BeautifulSoup
 import requests
