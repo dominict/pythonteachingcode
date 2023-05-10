@@ -8,7 +8,8 @@ import csv
 source = requests.get('http://coreyms.com').text
 soup = BeautifulSoup(source, 'lxml')
 #print(soup.prettify())
-#article = soup.find('article')
+article = soup.find('article')
+#print(article)
 #method to get all
 articles = soup.find_all('article')
 #print(article.prettify())
@@ -16,7 +17,7 @@ for article in articles:
     headline = article.h2.a.text
     print(headline)
     summary = article.find('div', class_='entry-content').p.text
-    print(summary)
+    #print(summary)
     #This try/except block handles the situation when a video is
     try:
         vid_src = article.find('iframe', class_='youtube-player')['src']
@@ -28,5 +29,5 @@ for article in articles:
         yt_link = f'https://youtube.com/watch?v={vid_id}'
     except Exception as e:
         yt_link = None
-    print(yt_link)
-    print()
+    #print(yt_link)
+    #print()

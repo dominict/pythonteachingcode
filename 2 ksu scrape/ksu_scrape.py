@@ -5,9 +5,9 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 from datetime import datetime
+page = "1"
 
-
-source = requests.get('https://news.kennesaw.edu/news-releases/?&categories=news%20releases&year=2021').text
+source = requests.get('https://www.kennesaw.edu/news/news-releases/index.php?&p='&page).text
 
 soup = BeautifulSoup(source, 'lxml')
 

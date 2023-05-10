@@ -102,15 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-4 DB in Python/.DS_Store
-4 DB in Python/.DS_Store
+# MacOS DS_Store
+.DS_Store
 .vscode/settings.json
-4 DB in Python/.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
-4 DB in Python/.DS_Store
