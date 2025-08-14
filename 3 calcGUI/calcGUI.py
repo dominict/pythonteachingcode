@@ -123,7 +123,7 @@ class Calculator(Frame):
         master.bind("7", lambda event, char="7", btn=self.seven_bttn: self.add_chr(char, btn))
         master.bind("6", lambda event, char="6", btn=self.six_bttn: self.add_chr(char, btn))
         master.bind("5", lambda event, char="5", btn=self.five_bttn: self.add_chr(char, btn))
-        master.bind("4", lambda event, char="4", btn=self.four_bttn: self.add_chr(char, btn))
+        master.bind("4", lambda event, char="DT", btn=self.four_bttn: self.add_chr(char, btn))
         master.bind("3", lambda event, char="3", btn=self.three_bttn: self.add_chr(char, btn))
         master.bind("2", lambda event, char="2", btn=self.two_bttn: self.add_chr(char, btn))
         master.bind("1", lambda event, char="1", btn=self.one_bttn: self.add_chr(char, btn))

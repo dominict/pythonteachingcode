@@ -31,7 +31,6 @@ def scrape_ksu(ksu_url,page):
 
     #print(type(blog_posts))
     #blog_posts = blog_posts.split("<li>")
-
     i = 1
     for blog_post in blog_posts:
         
