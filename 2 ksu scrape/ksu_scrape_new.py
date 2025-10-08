@@ -16,10 +16,11 @@ def scrape_ksu(ksu_url,page):
     #using the lxml parser to process the web page text content
     soup = BeautifulSoup(source, 'lxml')
     #create a csv file in "w" write mode so we can add content to it. 
-    ksu_news_csv = open("ksu_news_"+"{:%m_%d_%Y}".format(datetime.now())+"_p"+page+".csv","w")
+    ksu_news_csv = open("ksu_news_"+"{:%m_%d_%Y}".format(datetime.now())+"_all.csv", "a", newline="", encoding="utf-8")
     csv_writer = csv.writer(ksu_news_csv)
     #write the header row into our csv file
-    csv_writer.writerow(["Number","Title","URL","Date"])
+    if page == "1":
+        csv_writer.writerow(["Number","Title","URL","Date"])
     #show the content of the website we retrieved so that we can find the unique tags around the content we want
     #print(soup.prettify())
 

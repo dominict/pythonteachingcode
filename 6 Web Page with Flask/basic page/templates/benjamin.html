@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="home">
+    <h1>Reed</h1>
+    <p>This is Benjamin's Flask Website Demo project website. {{myName}}</p>
+    <p><form action="{{ url_for('greet') }}" method='post'>
+        Please type your name: <input type='text' name='myName'><br>
+        <input type='submit' value='Submit'>
+        </form></p>
+</div>
+{% endblock %}
