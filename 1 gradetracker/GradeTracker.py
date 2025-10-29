@@ -1,108 +1,131 @@
-'''
-This is a grade tracking program - think through the goal up front- what is the task and design?
-needs to enable several basic functions for faculty members.
-This comment in triple quotes is called a docstring.
-It is text that explains what a code file (aka module) or function does.
-See https://www.geeksforgeeks.org/python-docstrings/
-'''
-#import libraries (aka module) first
+"""
+Grade Tracker Program
+---------------------
+A simple command-line tool for faculty to manage and track student grades.
+
+Features:
+- Secure login for faculty members.
+- Add new grades to existing students.
+- Remove students.
+- View averages for all students.
+
+Author: <Your Name>
+"""
+
 import statistics as s
 
-#add constants next
-admins = {'Dominic':'Hacker','Faculty2':'ABC123','Faculty3':'123ABC'}
+# -----------------------------
+# Constants
+# -----------------------------
+ADMINS = {
+    'Dominic': 'Hacker',
+    'Faculty2': 'ABC123',
+    'Faculty3': '123ABC'
+}
 
-# Like the admins above is a dictionary but of students.
-# Dictionaries use curly brackets with colons to associate keys with values.
-# In this case, each student's first name is a key. The values are lists of grades.
-# Lists are denoted with square brackets.
-# Values are indexed within starting with 0 for the first one.
-# Each value is separated by commas.
-students = {'Alex':[87,88,98],
-            'Sally':[88,67,93],
-            'Nboke':[90,88,78]}
+STUDENTS = {
+    'Alex': [87, 88, 98],
+    'Sally': [88, 67, 93],
+    'Nboke': [90, 88, 78]
+}
 
-# Now we define functions. Functions encapsulate logic into reusable recipes that can be
-# executed whenever we need them by calling their name with parentheses.
+# -----------------------------
+# Helper Functions
+# -----------------------------
 def enter_grades():
-    '''
-    Function to input a grade for a given student.
-    '''
-    name_to_enter = input('Student name: ')
-    grade_to_enter = input('Grade: ')
-    # This checks through the keys of the students dictionary to see if the name entered
-    # exactly matches any one in there.
-    if name_to_enter in students:
-        print('Adding grade for'+name_to_enter)
-        students[name_to_enter].append(float(grade_to_enter)) #float will have a .0
-        print(str(name_to_enter)+' now has these grades:')
-        print(students[name_to_enter])
-    else:
-        print('Student not found. Please check your spelling or go back and add if new.')
+    """Add a grade for an existing student."""
+    name = input('Enter student name: ').strip()
+    if name not in STUDENTS:
+        print(f"❌ Student '{name}' not found. Please check spelling or add manually later.")
+        return
+
+    try:
+        grade = float(input('Enter grade (0–100): '))
+        if 0 <= grade <= 100:
+            STUDENTS[name].append(grade)
+            print(f"✅ Added grade for {name}. Current grades: {STUDENTS[name]}")
+        else:
+            print("❌ Grade must be between 0 and 100.")
+    except ValueError:
+        print("❌ Invalid input. Please enter a numeric grade.")
+
 
 def remove_student():
-    '''
-    Function to remove a specific student.
-    '''
-    name_to_remove = input('Who do you want to remove? ')
-    if name_to_remove in students:
-        print('Removing '+name_to_remove)
-        del students[name_to_remove]
-        print(students)
+    """Remove a student from the system."""
+    name = input('Enter student name to remove: ').strip()
+    if name in STUDENTS:
+        confirm = input(f"Are you sure you want to remove {name}? (y/n): ").lower()
+        if confirm == 'y':
+            del STUDENTS[name]
+            print(f"✅ {name} removed successfully.")
+        else:
+            print("❎ Removal cancelled.")
     else:
-        print('Student not found.')
+        print(f"❌ Student '{name}' not found.")
+
 
 def average_students():
-    '''
-    Function to average all students' grades.
-    '''
-    for student in students:
-        grades = students[student]
-        average = s.mean(grades) #notice the s? we imported the statistics module as s.
-        #Thus, we are using a fucntion called "mean()" from the statistics module.
-        print(student,' average ',average)
+    """Display the average grade for each student."""
+    print("\n--- Student Averages ---")
+    for student, grades in STUDENTS.items():
+        if grades:
+            avg = s.mean(grades)
+            print(f"{student}: {avg:.2f}")
+        else:
+            print(f"{student}: No grades recorded.")
+    print("------------------------\n")
+
+
+def show_menu():
+    """Display the main menu."""
+    print("""
+======= Grade Tracker Menu =======
+1. Enter Grades
+2. Remove Student
+3. Show Student Averages
+4. Exit
+=================================
+""")
+
 
 def main():
-    '''
-    Function to show user main menu and process option selections.
-    '''
-    print("User: " + login)
-    # Here we present our main menu options once a person logs in successfully.
-    print("""
-    Welcome to the Grade Tracker
+    """Main control loop."""
+    while True:
+        show_menu()
+        choice = input("Select an option (1-4): ").strip()
 
-    [1] - Enter Grades
-    [2] - Remove Student
-    [3] - Student Averages
-    [4] - Exit
-    """)
+        if choice == '1':
+            enter_grades()
+        elif choice == '2':
+            remove_student()
+        elif choice == '3':
+            average_students()
+        elif choice == '4':
+            print("Exiting... Goodbye.")
+            break
+        else:
+            print("❌ Invalid choice. Please select 1–4.")
 
-    action = input('What would you like to do? (Enter a number) ')
-    #Here we process their choice of what they want to do.
-    if action == '1':
-        #print('1 selected')
-        enter_grades()
-    elif action == '2':
-        #print('2 selected')
-        remove_student()
-    elif action == '3':
-        #print('3 selected')
-        average_students()
-    elif action == '4':
-        #print('4 selected')
-        exit()
+
+# -----------------------------
+# Entry Point: Login
+# -----------------------------
+def login():
+    """Handle faculty login."""
+    print("===== Faculty Login =====")
+    username = input("Username: ").strip()
+    password = input("Password: ").strip()
+
+    if username in ADMINS and ADMINS[username] == password:
+        print(f"✅ Welcome, {username}!")
+        return True
     else:
-        print('Valid option not selected.') #need to cause it to reprompt
+        print("❌ Invalid credentials.")
+        return False
 
-login = input('Faculty account name: ')
 
-if login in admins:
-    password = input('Password: ')
-    if admins[login] == password:
-        print('Welcome,',login)
-        #now run the code
-        while True:
-            main()
+if __name__ == "__main__":
+    if login():
+        main()
     else:
-        print('Invalid password.')
-else:
-    print('Invalid user.')
+        print("Access denied.")
